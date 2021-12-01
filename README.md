@@ -1,8 +1,8 @@
-# insect-game
+# insect-game (
 
 App development stages:
 HTML & CSS:
-1. Start game menu
+1. Start game menu - DONE
 2. Choose bug menu
 3. Game board
 
