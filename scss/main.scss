@@ -5,37 +5,73 @@
 body {
   font-family: "Press Start 2P", cursive;
   background-color: rgb(0, 102, 255);
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 300vw;
   margin: 0;
 }
 
-.start-game-menu {
+.game-container {
+  // transform: translateX(-100vw);
   height: 100vh;
-  width: 100vw;
+  width: 300vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  flex-direction: row;
 
-  .play-game-btn {
-    font-family: inherit;
-    font-size: 1rem;
-    border: none;
-    height: 80px;
-    width: 180px;
+  .start-game-menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
-    background-color: rgb(0, 102, 255);
-    border: 2px white solid;
-    cursor: pointer;
-    transition: 0.3s ease;
 
-    &:hover {
-      color: rgb(0, 102, 255);
-      background-color: white;
+    .play-game-btn {
+      font-family: inherit;
+      font-size: 1rem;
+      border: none;
+      height: 80px;
+      width: 180px;
+      color: white;
+      background-color: rgb(0, 102, 255);
+      border: 2px white solid;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: rgb(0, 102, 255);
+        background-color: white;
+      }
+    }
+  }
+
+  .choose-bug {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    .bug {
+      height: 150px;
+      width: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: 2px white solid;
+      margin: 10px;
+      transition: 0.3s ease;
+
+      img {
+        height: 100px;
+        width: 100px;
+      }
+
+      &:hover {
+        background-color: white;
+      }
     }
   }
 }

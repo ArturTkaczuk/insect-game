@@ -5,14 +5,17 @@
 body {
   font-family: "Press Start 2P", cursive;
   background-color: #0066ff;
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 300vw;
   margin: 0;
 }
 
-.start-game-menu {
+.game-container {
+  height: 100vh;
+  width: 300vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.game-container .start-game-menu {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -22,7 +25,7 @@ body {
   color: white;
 }
 
-.start-game-menu .play-game-btn {
+.game-container .start-game-menu .play-game-btn {
   font-family: inherit;
   font-size: 1rem;
   border: none;
@@ -35,7 +38,39 @@ body {
   transition: 0.3s ease;
 }
 
-.start-game-menu .play-game-btn:hover {
+.game-container .start-game-menu .play-game-btn:hover {
   color: #0066ff;
+  background-color: white;
+}
+
+.game-container .choose-bug {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.game-container .choose-bug .bug {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px white solid;
+  margin: 10px;
+  transition: 0.3s ease;
+}
+
+.game-container .choose-bug .bug img {
+  height: 100px;
+  width: 100px;
+}
+
+.game-container .choose-bug .bug:hover {
   background-color: white;
 }
