@@ -1,10 +1,11 @@
 # insect-game
 
 App development stages:
+
 HTML & CSS:
 1. Start game menu - DONE
 2. Choose bug menu - DONE
-3. Game board
+3. Game board - DONE
 
 JS:
 1. Start game button - transition on click
