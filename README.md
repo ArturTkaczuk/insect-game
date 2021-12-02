@@ -8,7 +8,7 @@ HTML & CSS:
 3. Game board - DONE
 
 JS:
-1. Start game button - transition on click
+1. Start game button - transition on click - DONE
 2. Start game buttons - start game on click
 3. Game board game functionality
 
