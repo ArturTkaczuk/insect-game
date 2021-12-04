@@ -59,12 +59,17 @@ function placeBugs(chosen_bug) {
     score++
     score_text.innerText = `Score: ${score.toString().padStart(3, "0")}`
 
-    newBug.remove();
+    newBug.innerHTML = `<img src="blood-images/blood${Math.floor(Math.random() * (6 - 1) + 1)}.png" alt="smashed-bug"></img>`
+    newBug.classList.add('smashed')
+
     setTimeout(() => {
       placeBugs(chosen_bug);
     }, 300);
     setTimeout(() => {
       placeBugs(chosen_bug);
     }, 500);
-  });
+    setTimeout(() => {
+      newBug.remove();
+    }, 15000);
+  }, { once: true });
 }
