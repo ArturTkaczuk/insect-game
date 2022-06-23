@@ -8,7 +8,7 @@ One of my first projects. Simple game made in JS, CSS & HTML to learn coding. Ch
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Development chart](#development chart)
+- [Development_chart](#development_chart)
 - [Features](#features)
 - [Support](#support)
 - [Contributing](#contributing)
@@ -42,7 +42,7 @@ Technologies used during development process:
 - SCSS
 - HTML
 
-## Development chart
+## Development_chart
 
 ![git branches workflow](https://user-images.githubusercontent.com/87656238/144266844-20d9d7b3-9510-42ad-802c-84a7ff719d10.png)
 
