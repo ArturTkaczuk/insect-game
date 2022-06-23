@@ -16,7 +16,7 @@ One of my first projects. Simple game made in JS, CSS & HTML to learn coding. Ch
 
 ## Requirements
 
-- Latest web browser to run the website ([Google Chrome](https://www.google.com/intl/en_en/chrome/))
+- Latest web browser to run app on website ([Google Chrome](https://www.google.com/intl/en_en/chrome/))
 
 ## Installation
 
